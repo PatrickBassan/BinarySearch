@@ -13,7 +13,7 @@ def find(lists, target):
         middle = (start + end) // 2
         midpoint = lists[middle]
         if midpoint == target:
-            print(midpoint + " was found")
+            print(midpoint + " was found at index:", middle)
             return
         elif midpoint > target:
             end = middle - 1
